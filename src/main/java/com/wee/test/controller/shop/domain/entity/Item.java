@@ -1,4 +1,4 @@
-package com.wee.test.controller.shop;
+package com.wee.test.controller.shop.domain.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -9,7 +9,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "shops")
+@Table(name = "items")
 public class Item {
 
     @Id

@@ -1,11 +1,10 @@
 package com.wee.test;
 
-import com.wee.test.controller.shop.Shop;
-import com.wee.test.controller.shop.ShopRepository;
+import com.wee.test.controller.shop.domain.entity.Shop;
+import com.wee.test.controller.shop.repository.ShopRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
 
